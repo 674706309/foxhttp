@@ -26,6 +26,7 @@ class HTTPRequest
         vector<HTTPHeader> getHeader();
         string getData();
         string getRequest();
+        void parseRequest(string&);
     protected:
 
     private:

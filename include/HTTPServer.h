@@ -9,6 +9,7 @@ class HTTPServer
         HTTPServer(u_short);
         virtual ~HTTPServer();
         int startUp();
+        void accept_request(void *);
         void error(const char*);
     protected:
 

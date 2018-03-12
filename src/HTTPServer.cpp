@@ -36,6 +36,11 @@ int HTTPServer::startUp()
 	return (httpd);
 }
 
+void HTTPServer()::accept_request(void *arg){
+
+
+}
+
 void HTTPServer::error(const char *er)
 {
 	perror(er);
